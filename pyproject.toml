@@ -1,0 +1,9 @@
+[project]
+name = "siac-scraper"
+version = "2.0.0"
+description = "Robot que consulta RUCs en SIAC Único y guarda los datos del cliente en un CSV"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

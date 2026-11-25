@@ -1,0 +1,12 @@
+# Dependencias de siac-scraper (solo Windows, Python 3.9+)
+# Instalar con: pip install -r requirements.txt
+# Tkinter (pantalla de carga) viene con el instalador de python.org: no se instala con pip.
+
+pywinauto>=0.6.8,<0.7    # teclea las credenciales en la ventana de Windows (instala comtypes y pywin32)
+selenium>=4.11,<5        # incluye Selenium Manager: descarga el driver de Chrome/Edge automáticamente
+keyring>=24,<26          # guarda la contraseña en el Administrador de credenciales de Windows
+openpyxl>=3.1,<4         # lee el Excel con los RUCs
+
+# Solo para verificar-password (prueba la contraseña contra el portal)
+requests>=2.31,<3
+requests-ntlm>=1.2,<2

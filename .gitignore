@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Perfiles de navegador de Selenium (cookies y sesiones)
+perfil_*/
+
+# Drivers de navegador descargados a mano (Selenium Manager los baja solo)
+chromedriver*
+msedgedriver*
+
+# Datos de clientes: entradas y resultados de los scrapers (RUC, nombres, teléfonos, correos)
+*.csv
+*.xls*
+
+# Logs y temporales
+*.log
+*.tmp
+~$*
+
+# Credenciales locales (las contraseñas van en el Administrador de credenciales de Windows)
+.env
+.env.*
+*.key
+
+# Editor y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+._*
+
+# Carpetas de trabajo: se conservan vacías en el repo
+datos/*
+!datos/.gitkeep
+perfiles/
